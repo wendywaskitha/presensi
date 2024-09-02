@@ -13,7 +13,7 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::post('/store-attendance', [AttendanceController::class, 'store']);
     Route::get('/get-attendance-by-month-year/{month}/{year}', [AttendanceController::class, 'getAttendanceByMonthYear']);
     Route::post('/banned', [AttendanceController::class, 'banned']);
-    Route::get('/get-image', [AttendanceController::class, 'getImage']);
+    Route::get('/get-photo', [AttendanceController::class, 'getImage']);
 });
 
 Route::get('/user', function (Request $request) {
