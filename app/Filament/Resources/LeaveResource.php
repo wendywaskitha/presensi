@@ -21,6 +21,10 @@ class LeaveResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    protected static ?string $navigationGroup = 'Attendance Management';
+
+    protected static ?int $navigationSort = 9;
+
     protected static ?string $modelLabel = 'Pengajuan Cuti/Izin/TL';
 
     public static function form(Form $form): Form

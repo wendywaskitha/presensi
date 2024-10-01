@@ -22,9 +22,11 @@ class OfficeResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-building-office-2';
 
-    protected static ?string $modelLabel = 'Kantor';
+    protected static ?string $navigationGroup = 'Office Management';
 
     protected static ?int $navigationSort = 1;
+
+    protected static ?string $modelLabel = 'Kantor';
 
     public static function form(Form $form): Form
     {

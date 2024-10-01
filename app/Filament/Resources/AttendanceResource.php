@@ -27,6 +27,10 @@ class AttendanceResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    protected static ?string $navigationGroup = 'Attendance Management';
+
+    protected static ?int $navigationSort = 8;
+
     protected static ?string $modelLabel = 'Kehadiran';
 
     public static function form(Form $form): Form
