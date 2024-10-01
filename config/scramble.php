@@ -29,7 +29,7 @@ return [
         /*
          * Description rendered on the home page of the API documentation (`/docs/api`).
          */
-        'description' => 'API untuk Sistem Presensi Disperdagin 2024',
+        'description' => 'API untuk Sistem Presensi Dinas Perdaganagn dan Perindustrian Kab. Muna Barat',
     ],
 
     /*
